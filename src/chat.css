@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #abd9e9;
+    font-family: Arial;
+}
+.containers{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    width: 80%;
+    height: 712px;
+    background: #eff3f7;
+    margin: 0 auto;
+    font-size: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 0px;
+}
+
+main {
+    width: 100%;
+    height: 712px;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+main header {
+    height: auto;
+    margin: 0 315px;
+}
+main header>* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* main header img:first-child {
+    border-radius: 50%;
+} */
+
+main header img:last-child {
+    width: 100px;
+    height: 50px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+main header div {
+    margin-left: 10px;
+    margin-right: 145px;
+}
+
+main header h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+main header h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #7e818a;
+}
+
+.chat {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow-y: scroll;
+    height: 550px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.chat li {
+    padding: 10px 30px;
+}
+
+.chat h2,
+.chat h3 {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.chat h3 {
+    color: #bbb;
+}
+
+.chat .entete {
+    margin-bottom: 5px;
+}
+
+.chat .message {
+    padding: 5px 10px;
+    color: #fff;
+    line-height: 25px;
+    max-width: 90%;
+    display: inline-block;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.chat .me {
+    text-align: right;
+}
+
+#chat .you .message {
+    background-color: #58b666;
+}
+
+.chat .me .message {
+    background-color: rgb(128, 128, 128,.7);
+}
+
+.chat .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+}
+
+.chat .you .triangle {
+    border-color: transparent transparent #58b666 transparent;
+    margin-left: 15px;
+}
+
+.chat .me .triangle {
+    border-color: transparent transparent #6fbced transparent;
+    margin-left: 375px;
+}
+
+main footer {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 35px;
+}
+
+main footer textarea {
+    resize: none;
+    border: none;
+    display: block;
+    width: 50%;
+    height: 34px;
+    border-radius: 3px;
+    padding: 9px;
+    font-size: 12px;
+}
+
+main footer textarea::placeholder {
+    color: #ddd;
+}
+
+main footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6fbced;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.logo img{
+    width: 100%;
+    height: 709.7px;
+}
